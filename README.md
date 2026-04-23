@@ -9,9 +9,9 @@ The objective of this lab is to control a two-wheeled robot to maintain an uprig
 3.  **Hardware Implementation**: Deploying the control law to a microcontroller using CircuitPython.
 
 ## File Structure
-* **`Lab 7.pdf`**: Lab manual and report documenting mathematical derivations, transfer functions, and simulation results [cite: 1-94].
-* **`host.py`**: A Python script used to simulate the robot's dynamics, calculate LQR (Linear Quadratic Regulator) gains, and visualize the system response [cite: 106-193].
-* **`code.cpy`**: The CircuitPython source code for the robot's microcontroller, handling real-time sensor fusion and motor control [cite: 95-105].
+* **`Lab 7.pdf`**: Lab manual and report documenting mathematical derivations, transfer functions, and simulation results.
+* **`host.py`**: A Python script used to simulate the robot's dynamics, calculate LQR (Linear Quadratic Regulator) gains, and visualize the system response.
+* **`code.cpy`**: The CircuitPython source code for the robot's microcontroller, handling real-time sensor fusion and motor control.
 
 ## System Dynamics & Modeling
 The robot is modeled as an inverted pendulum on wheels. Key parameters used in the calculations include:
@@ -21,7 +21,7 @@ The robot is modeled as an inverted pendulum on wheels. Key parameters used in t
 * **Motor Torque Constant ($k_t$)**: 0.0948 
 * **Back EMF Constant ($k_b$)**: 0.1343 
 
-The system's state vector is defined as $x = [h, \dot{h}, \alpha, \dot{\alpha}]^T$, where $h$ is horizontal displacement and $ lpha$ is the angular position of the pendulum [cite: 16, 101].
+The system's state vector is defined as $x = [h, \dot{h}, \alpha, \dot{\alpha}]^T$, where $h$ is horizontal displacement and $ lpha$ is the angular position of the pendulum.
 
 ## Control Strategy
 ### 1. Linearization
