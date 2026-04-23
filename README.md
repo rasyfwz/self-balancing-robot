@@ -1,6 +1,6 @@
 # Lab 7: Self-Balancing Robot (MinSeg)
 
-This repository contains the modeling, simulation, and implementation files for a miniature Segway (MinSeg) robot designed to balance upright using feedback control [cite: 2, 3].
+This repository contains the modeling, simulation, and implementation files for a miniature Segway (MinSeg) robot designed to balance upright using feedback control.
 
 ## Project Overview
 The objective of this lab is to control a two-wheeled robot to maintain an upright equilibrium position. The project is divided into three primary phases:
@@ -14,7 +14,7 @@ The objective of this lab is to control a two-wheeled robot to maintain an uprig
 * **`code.cpy`**: The CircuitPython source code for the robot's microcontroller, handling real-time sensor fusion and motor control [cite: 95-105].
 
 ## System Dynamics & Modeling
-The robot is modeled as an inverted pendulum on wheels [cite: 15, 16]. Key parameters used in the calculations include:
+The robot is modeled as an inverted pendulum on wheels. Key parameters used in the calculations include:
 * **Pendulum Mass ($m_p$)**: 0.116 kg
 * **Pendulum Length ($l_p$)**: 0.018 m
 * **Wheel Radius ($r_w$)**: 0.021 m
